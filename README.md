@@ -74,7 +74,7 @@ comparing the quintiles was conducted.
 ## Figure
 
 ![Weighted prevalence of adolescent childbearing by household wealth
-quintile](figures/figure1_adolescent_childbearing_by_wealth.png)
+quintile](figure1_adolescent_childbearing_by_wealth.png)
 
 *Figure 1. Weighted prevalence of adolescent childbearing among girls
 aged 15--19 years by household wealth quintile, Malawi DHS 2017. Error
