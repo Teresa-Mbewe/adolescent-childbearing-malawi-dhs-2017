@@ -44,22 +44,15 @@ The IPUMS DHS documentation was checked and `PERWEIGHT` was used as
 supplied, without additional scaling. Weighted prevalence estimates and
 95% confidence intervals were calculated for each wealth quintile.
 
-## Key findings
-
-  -----------------------------------------------------------------------
-  Household wealth          Weighted prevalence   95% confidence interval
-  quintile                                      
-  ------------------- ------------------------- -------------------------
-  Poorest                                37.25%              27.71--46.79
-
-  Poorer                                 30.05%              20.44--39.65
-
-  Middle                                 24.84%              15.45--34.23
-
-  Richer                                 27.74%              19.20--36.27
-
-  Richest                                14.76%               9.56--19.97
-  -----------------------------------------------------------------------
+## Key finding
+  ------------------------------------
+  | Household Wealth Quintile | Weighted Prevalence (%) | 95% Confidence Interval |
+| :--- | :--- | :--- |
+| Poorest | 37.25% | 27.71 – 46.79 |
+| Poorer | 30.05% | 20.44 – 39.65 |
+| Middle | 24.84% | 15.45 – 34.23 |
+| Richer | 27.74% | 19.20 – 36.27 |
+| Richest | 14.76% | 9.56 – 19.97 |
 
 The highest weighted prevalence was observed in the poorest quintile
 (37.25%) and the lowest in the richest quintile (14.76%), an absolute
