@@ -31,14 +31,15 @@ Malawi?
 The outcome measures previous live birth, not pregnancy. Pregnancies
 that did not result in a live birth are not captured by this measure.
 
-## Methods
+-   ## Data and Methods
 
-Data were analysed in R using the `survey` package. The complex survey
-design was specified using:
+Data were analysed in R using the `survey` package. The complex survey design was specified using:
 
--   `PERWEIGHT` --- person sampling weight;
--   `PSU` --- primary sampling unit;
--   `STRATA` --- sampling stratum.
+- `PERWEIGHT`: person sampling weight
+- `PSU`: primary sampling unit
+- `STRATA`: sampling stratum
+
+The IPUMS DHS documentation was checked, and `PERWEIGHT` was used as supplied, without additional scaling. Weighted prevalence estimates and 95% confidence intervals were calculated for each wealth quintile.
 
 The IPUMS DHS documentation was checked and `PERWEIGHT` was used as
 supplied, without additional scaling. Weighted prevalence estimates and
