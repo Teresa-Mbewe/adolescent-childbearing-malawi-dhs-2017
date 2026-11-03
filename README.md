@@ -92,15 +92,14 @@ bars represent 95% confidence intervals.*
 -   `README.md` --- project overview, methods and key findings.
 -   `figures/figure1_adolescent_childbearing_by_wealth.png` --- report
     figure.
-
-## Tools and skills demonstrated
-
--   R and the `survey` package
--   Survey-weighted descriptive analysis
--   Data management and variable operationalisation
--   Estimation and interpretation of prevalence and confidence intervals
--   Data visualisation
--   Public health research writing
+    
+## Tools and Skills Demonstrated
+- **R and the survey package:** Used for complex survey-weighted analysis.
+- **Survey-weighted descriptive analysis:** Accounted for PSUs, strata, and sampling weights.
+- **Data management:** Cleaned and operationalised variables 
+- **Estimation:** Calculated weighted prevalence and 95% confidence intervals.
+- **Data visualisation:** Created publication-quality bar charts using ggplot2.
+- **Public health research writing:** Documented methods, results, and limitations in a formal research report.
 
 ## Data access and citation
 
