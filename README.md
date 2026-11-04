@@ -134,6 +134,22 @@ This extended analysis builds on the descriptive findings of Project 01 by using
   - Model 3: Wealth + Age + Education.
 
 ## Key Findings (Model 3)
+## Table 2: Survey-Weighted Logistic Regression Results
+
+| Variable | Model 1 AOR (95% CI) | Model 2 AOR (95% CI) | Model 3 AOR (95% CI) |
+| :--- | :--- | :--- | :--- |
+| **Wealth Quintile** | | | |
+| Poorest | Ref | Ref | Ref |
+| Poorer | 0.724 | 0.655 | 0.640 |
+| Middle | 0.557 | 0.575 | 0.611 |
+| Richer | 0.646 | 0.732 | 0.897 |
+| Richest | 0.292 | 0.183 | 0.900 (0.191–0.900) |
+| **Age** | - | 2.788 | 3.046 (2.434–3.814) |
+| **Education** | | | |
+| No education | - | - | Ref |
+| Primary | - | - | 0.773 |
+| Secondary | - | - | 0.163 (0.049–0.540) |
+| Higher | - | - | 0.134 |
 After adjusting for age and education, adolescents in the richest wealth quintile had lower odds of having ever given birth compared with those in the poorest quintile (AOR = 0.900, 95% CI: 0.191–0.900). However, this estimate is sparse, and the upper confidence limit equals the point estimate due to limited outcome events in this group.
 
 Age was positively associated with childbearing (AOR = 3.046, 95% CI: 2.434–3.814). Secondary education was associated with lower odds of childbearing compared with no education (AOR = 0.163, 95% CI: 0.049–0.540).
