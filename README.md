@@ -118,3 +118,28 @@ Maryland, USA: NSO and ICF.
 Minnesota Population Center. (2020). *Integrated Public Use Microdata
 Series, International: Version 7.3* \[Dataset\]. IPUMS DHS.
 https://doi.org/10.18128/D020.V7.3
+
+---
+
+# Project 01B: Extended Analysis (Survey-Weighted Logistic Regression)
+
+This extended analysis builds on the descriptive findings of Project 01 by using survey-weighted logistic regression to examine the association between household wealth, age, educational attainment, and adolescent childbearing.
+
+## Methods
+- **Sample:** 828 adolescent girls (aged 15–19) from the 2017 Malawi DHS.
+- **Design:** Complex survey design was specified using `PSU`, `STRATA`, and `PERWEIGHT`.
+- **Models:** Three sequential models were fitted:
+  - Model 1: Wealth only.
+  - Model 2: Wealth + Age.
+  - Model 3: Wealth + Age + Education.
+
+## Key Findings (Model 3)
+After adjusting for age and education, adolescents in the richest wealth quintile had lower odds of having ever given birth compared with those in the poorest quintile (AOR = 0.900, 95% CI: 0.191–0.900). However, this estimate is sparse, and the upper confidence limit equals the point estimate due to limited outcome events in this group.
+
+Age was positively associated with childbearing (AOR = 3.046, 95% CI: 2.434–3.814). Secondary education was associated with lower odds of childbearing compared with no education (AOR = 0.163, 95% CI: 0.049–0.540).
+
+## Limitations
+This is an observational, cross-sectional analysis. Associations do not imply causation. The wealth estimates are limited by sparse data in the highest wealth quintile.
+
+## Reproducibility
+The full R script for this analysis is available in the `DHS_Analysis_Teresa.R` file in this repository.
